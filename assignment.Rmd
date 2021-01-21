@@ -1,6 +1,6 @@
 ---
 title: "Lab 2 Assignment"
-author: "_Hiba Chaudhry__"
+author: __Hiba Chaudhry__
 date: "`r format(Sys.Date())`"
 output: github_document
 ---
@@ -42,7 +42,7 @@ sem
 
 ```
 
-And finally, I can see the 95% confidence interval ranges from a minimum of ___ to a maximum of ___
+And finally, I can see the 95% confidence interval ranges from a minimum of 2.84 to a maximum of 6.05
 
 ```{r mean}
 
@@ -103,3 +103,9 @@ ggplot(chick_data, aes(x = diet, y = weight, color = diet, fill = diet)) +
   )
 
 ```
+## Session Info
+
+Here is my session information:
+
+```{r}
+sessioninfo::session_info()
