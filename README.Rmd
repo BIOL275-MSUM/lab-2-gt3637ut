@@ -5,7 +5,6 @@ date: "`r format(Sys.Date())`"
 output: github_document
 ---
 
-> INSTRUCTIONS: REMOVE THIS LINE AND REPLACE ____ WITH YOUR OWN TEXT
 
 Welcome to my Lab 2 repository for Quantitative Biology BIOL 275 at MSUM.
 
